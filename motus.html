@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motus</title>
+    <link rel="stylesheet" href="./motus.css">
+</head>
+<body>
+    <div id="container">
+        <div id="head">
+            <div id="title">MOTUS</div>
+        </div>
+        <div id="area">
+            <div id="Notification">CE MOT N'EST PAS DANS LE DICTIONNAIRE</div>
+            <div id="grid">
+                <div class="ligne" id="ligne0"></div>
+                <div class="ligne" id="ligne1"></div>
+                <div class="ligne" id="ligne2"></div>
+                <div class="ligne" id="ligne3"></div>
+                <div class="ligne" id="ligne4"></div>
+                <div class="ligne" id="ligne5"></div>
+            </div>
+            <div id="keyboard">
+                <div class="ligne">
+                    <button class="button" value="A" id="A">A</button>
+                    <button class="button" value="Z" id="Z">Z</button>
+                    <button class="button" value="E" id="E">E</button>
+                    <button class="button" value="R" id="R">R</button>
+                    <button class="button" value="T" id="T">T</button>
+                    <button class="button" value="Y" id="Y">Y</button>
+                    <button class="button" value="U" id="U">U</button>
+                    <button class="button" value="I" id="I">I</button>
+                    <button class="button" value="O" id="O">O</button>
+                    <button class="button" value="P" id="P">P</button>
+                </div>
+                <div class="ligne">
+                    <button class="button" value="Q" id="Q">Q</button>
+                    <button class="button" value="S" id="S">S</button>
+                    <button class="button" value="D" id="D">D</button>
+                    <button class="button" value="F" id="F">F</button>
+                    <button class="button" value="G" id="G">G</button>
+                    <button class="button" value="H" id="H">H</button>
+                    <button class="button" value="J" id="J">J</button>
+                    <button class="button" value="K" id="K">K</button>
+                    <button class="button" value="L" id="L">L</button>
+                    <button class="button" value="M" id="M">M</button>
+                </div>
+                <div class="ligne">
+                    <button class="SpaceButton" onclick="supprKey();">suppr</button>
+                    <button class="button" value="W" id="W">W</button>
+                    <button class="button" value="X" id="X">X</button>
+                    <button class="button" value="C" id="C">C</button>
+                    <button class="button" value="V" id="V">V</button>
+                    <button class="button" value="B" id="B">B</button>
+                    <button class="button" value="N" id="N">N</button>
+                    <button id="enter" class="SpaceButton" onclick="jeu();">enter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./dictionnaire.js"></script>
+    <script src="./motus.js"></script>
+</body>
+</html>
